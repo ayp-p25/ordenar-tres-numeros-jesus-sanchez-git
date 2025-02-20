@@ -17,17 +17,17 @@ A = float(input("Ingrese su primer numero :  \n"))
 B = float(input("Ingrese su segundo numero : \n"))
 C = float(input("Ingrese un tercer numero : \n"))
 
-if A > B > C :
+if A >= B >= C :
     print("El orden de mayor a menor es : " ,A , B, C)
-elif B > C >A:
+elif B >= C >=A:
     print("El orden de mayor a menor es : " ,B ,C ,A )
-elif C > A > B:
+elif C >= A >= B:
     print("El orden de mayor a menor es : " ,C ,A ,B )
-elif A > C > B:
+elif A >= C >= B:
     print("El orden de mayor a menor es : ", A, C, B)
-elif C > B > A:
+elif C >= B >= A:
     print("El orden de mayor a menor es : " ,C ,B ,A )
-elif B > A > C:
+elif B >= A >= C:
     print("El orden de mayor a menor es : " ,B ,A ,C )
 else : 
     print(A, B, C)
