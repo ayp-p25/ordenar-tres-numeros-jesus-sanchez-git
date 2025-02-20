@@ -29,6 +29,8 @@ elif C > B > A:
     print("El orden de mayor a menor es : " ,C ,B ,A )
 elif B > A > C:
     print("El orden de mayor a menor es : " ,B ,A ,C )
+else : 
+    print(A, B, C)
 
 # Proceso
 
